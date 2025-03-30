@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating ...[0m
+[0m[[0m[0minfo[0m] [0m[0mFetching artifacts of scio-misuse-pipeline_2.12[0m
+[0m[[0m[0minfo[0m] [0m[0mFetched artifacts of scio-misuse-pipeline_2.12[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOException: No space left on device[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:300)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.nio.file.Files.write(Files.java:3510)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.FileCache$.coursier$cache$FileCache$$persistedDigest(FileCache.scala:486)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.internal.shaded.coursier.cache.FileCache.$anonfun$validateChecksum$4(FileCache.scala:162)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.$anonfun$map$1(Try.scala:255)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.map(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:74)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:1583)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mupdate[0m) java.io.IOException: No space left on device[0m
